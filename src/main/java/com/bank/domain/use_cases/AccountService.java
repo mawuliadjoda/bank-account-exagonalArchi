@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 
 import com.bank.domain.entities.Account;
 
-//@Component
 public class AccountService implements AccountPort {
 
 	private OperationService operationService;

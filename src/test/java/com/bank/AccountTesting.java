@@ -58,8 +58,7 @@ class AccountTesting {
 
 	@Test
 	@Order(3)
-	void getAllHistories() {
-		// accountService.showHistory().stream().forEach(System.out::println);
+	void getAllHistories_should_return_all_operations() {
 		List<String> operations = accountService.showHistory();
 		assertThat(operations).isNotEmpty();
 	}
